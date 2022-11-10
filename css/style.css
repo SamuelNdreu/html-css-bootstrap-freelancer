@@ -1,5 +1,42 @@
-div.my-card-jumbo{
+div .my-jumbo {
     background-color: #1abc9c;
     height: 30rem;
     color: white;
+}
+div.wood-house {
+    background-color: #ba4b63;
+    height: 20rem;
+}
+div.cake{
+    background-color: #cc96da;
+    height: 20rem;
+}
+div.circus{
+    background-color: #ff0000;
+    height: 20rem;
+}
+div.game-pad{
+    background-color: #2600ff;
+    height: 20rem;
+}
+div.safe-locker{
+    background-color: #4c4c4d;
+    height: 20rem;
+}
+div.submarine{
+    background-color: #d0ff00;
+    height: 20rem;
+}
+div.about{
+    background-color: #1abc9c;
+    /* height: 50rem; */
+    color: white;
+}
+div.footer-meu{
+    background-color: #3a546d;
+    height: 20rem;
+    color: white;
+}
+div.copyright{
+    background-color: #5b5b5e;
 }
