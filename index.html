@@ -46,11 +46,21 @@
             <div class="container">
                 <div class="row p-4">
                     <div class="col-12 text-center">
-                        <div class="box text-center">
-                            <h1>
-                                START BOOTSTRAP
-                            </h1>
+                        <div id="user-img">
+                            <img class="w-25" src="./img/avatar.svg" alt="">
                         </div>
+                    <div class="col-12 text-center">
+                        <span id="title-jumbo" class="text-white fw-bold text-uppercase"><h1>Start Bootstrap</h1></span>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center mb-4">
+                        <span class="custom-line bg-white"></span>
+                        <span class="fs-1 text-white">&starf;</span>
+                        <span class="custom-line bg-white"></span>
+                    </div>
+                    <div class="col-12 text-center mb-3">
+                        <span>
+                            <h2 class="text-white text-uppercase fs-5">Graphic Artist - Web Designer - Illustrator</h2>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -60,70 +70,130 @@
             <div class="row g-2">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class=" wood-house">
+                        <img class="img-fluid rounded-3" src="./img/cabin.png" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="cake">
-                        
+                        <img class="img-fluid rounded-3" src="./img/cake.png" alt="">                       
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="circus"></div>
+                    <div class="circus">
+                        <img class="img-fluid rounded-3" src="./img/circus.png" alt="">
+                    </div>   
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="game-pad"></div>
+                    <div class="game-pad">
+                        <img class="img-fluid rounded-3" src="./img/game.png" alt="">
+                    </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="safe-locker"></div>
+                    <div class="safe-locker">
+                        <img class="img-fluid rounded-3" src="./img/safe.png" alt="">
+                    </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="submarine"></div>
+                    <div class="submarine">
+                        <img class="img-fluid rounded-3" src="./img/submarine.png" alt="">
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="about bg-success mb-5">
             <div class="container">
-                <div class="row p-2">
-                    <div class="col-12 col-md-6">
-                        <div class="central-cards"></div>
+                <div class="row p-4">
+                    <div class="col-12  text-center">
+                        <h2 class="text-white text-uppercase">About</h2>
                     </div>
-                    <div class="col-12 col-md-6">
-                        <div class="central-cards"></div>
+                    <div class="col-12 d-flex justify-content-center mb-4">
+                        <span class="custom-line bg-white"></span>
+                        <span class="fs-1 text-white">&starf;</span>
+                        <span class="custom-line bg-white"></span>
+                    </div>
+                    <div class="col-12  px-lg-5">
+                        <div class="px-5 pe-md-2">
+                            <p class="text-white fw-bold mb-4">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization</p>
+                        </div>
+                    <div class="col-12 mb-4">
+                        <div class="px-5 ps-md-2">
+                            <p class="text-white fw-bold">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                    </div>
+                    <div class="col-12 text-center mb-3">
+                        <button class="btn btn-outline-secondary text-white border-white fw-bold"> Download</button>
                     </div>
                 </div>
             </div>
         </section>
-
-                <!-- The teacher told me if I would be dead, so instead putting this sticker to remind me death is real := -->
-        
-                <div class="don-t container mb-5">
-            <div class="row align-items-center">
-                <div class="col-12">
-                    <div class="text-center">
-                        <img class="img-fluid" src="https://media.istockphoto.com/id/1152287841/vector/danger-do-not-enter-symbol-sign-isolate-on-white-background-vector-illustration.jpg?b=1&s=612x612&w=0&k=20&c=NlbmRnrpKA9hnVxqcNboUEfOHD4LDq20-1iH-L37Qvs=" alt="">
+        <!-- Form Container -->
+        <section class="contact-me container mb5">
+            <div class="row">
+                <div class="col-12 text-center text-uppercase c-custom-blue mb-4">
+                    <h2>Contact ME</h2>
+                </div>
+                <div class="col-12 d-flex justify-content-center mb-4">
+                    <span class="custom-line bg-custom-blue"></span>
+                    <span class="fs-1 c-custom-blue">&starf;</span>
+                    <span class="custom-line bg-custom-blue"></span>
+                </div>
+                <div class="col-12 d-flex justify-content-center p-5 p-md-0">
+                    <form action="">
+                        <div class="form-input">
+                            <input type="text" name="name" id="user-name" placeholder="Name" class="custom-area w-100 mb-2 py-3">
+                            <input type="email" name="email" id="email" placeholder="Email Address" class="custom-area w-100 mb-2 py-3">
+                            <input type="text" name="number" id="user-phone" placeholder="Phone Number" class="custom-area w-100 mb-2 py-3">
+                        </div>
+                        <div class="form-textarea">
+                            <textarea name="Message" id="user-message" cols="30" rows="10 placeholderMessage" class="custom-area w-100 mb-3 py-3"></textarea>
+                        </div>
+                        <input type="submit" value="Submit" class="btn btn-outline-light bg-custom-aqua mb-2">
+                    </form>
+            </div>
+        </section>
+    </main>
+    <!--    Footer Section  -->
+    <footer>
+        <section class="footer-top bg-custom-dark">
+            <div class="container">
+                <div class="row p-5">
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="text-center">
+                            <h5 class="text-white text-uppercase">Location</h5>
+                            <p class="text-white">2215 John Daniel Drive Clark, Mo 54243</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="text-center">
+                            <h5 class="text-white text-uppercase">Around the web</h5>
+                            <p class="text-white">
+                            <span><i class="fa-brands fa-facebook fa-2x"></i></span>
+                            <span class="px-2"><i class="fa-brands fa-google-plus fa-2x"></i></span>
+                            <span class="px-2"><i class="fa-brands fa-twitter fa-2x"></i></span>
+                            <span><i class="fa-brands fa-linkedin-in fa-2x"></i></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 px-5 px-md-2 mb-4">
+                        <div class="text-center">
+                            <h5 class="text-white text-uppercase">About Freelancer</h5>
+                            <p class="text-white">Freelancer is a free to use, open source Bootstrap therme created by 
+                                <a href="#" class="text-decoration-none text-success">Start Bootstrap</a>
+                            </p>    
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </main>
-    <footer class="bg-dark p-2">
-        <div class="container">
-            <div class="row gy-2">
-                <div class="col-12 col-md-4">
-                    <div class="foot-card"></div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="foot-card"></div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="foot-card"></div>
-                </div>
-                <div class="col-12 text-center">
-                    <div class="foot-card"></div>
+        </section>
+        <section class="footer-bottom bg-custom-blue">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-12 text-center p-5">
+                        <h6 class="text-white">copyright &copy; Your Website 2019</h6>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </footer>
             <!-- IMPORT JAVASCRIPT -->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
